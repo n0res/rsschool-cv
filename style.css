@@ -4,6 +4,12 @@
   border: 0;
 }
 
+input,
+button,
+textarea {
+   font-family: inherit;
+}
+
 nav,        /*преваращаем в блочный*/
 footer,
 header,
@@ -23,28 +29,61 @@ body {
    -webkit-text-size-adjust: 100%;
 }
 
-h1,
-h2 {
-   font-size: inherit;
-   font-weight: 400;
-}
-
-body {
-  font-size: 1em;
+h1 {
   font-family: 'Poppins', sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
 }
 
-.header {
-  background-color: rgba(78, 74, 74, 0.69);
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.container {
+  background: #E5C850;   
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  text-align: left;
+}
+
+section {
+  background: #FFFAE5;    
+}
+
+.myinfo {
+  background: #E5C850;   
+}
+
+header {
+  background-color: #FFFAE5;   
+}
+
+.photo1 {       
+    width: 300px;
+    height: 300px;
+    border: 4px solid black;
+    margin-left: 30px;
+    margin-top: 30px;
 }
 
 .nav {
   padding: 10px 15px;
+  color: #000;
 }
 
 .nav-list {
   display: flex;
   justify-content: space-between;
+  color: #000;
 }
 
 .nav-list {
@@ -56,23 +95,45 @@ body {
 
 .nav-item:hover {
   transform: scale(1.1);
-  transition: 1s;
+  transition: 0.2s;
 }
 
 .nav-list:hover {
   color: whitesmoke;
 }
 
-.photo1 {       /*фото размеры меняем*/
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
+.gitlink {
+  color: black;
+  text-decoration: solid;
+  text-decoration-color: rgb(0, 0, 0);
+  text-decoration-line: underline;
 }
 
-h1 {
-  text-align: center;
+.gitlink:hover {
+  color: whitesmoke;
+  text-decoration-line: underline;
 }
 
-.proffesion {
+
+ul li {
+  list-style: none;
+}
+
+.myfooter {
   text-align: center;
+}
+.info22 {
+  text-align: right;
+}
+
+.icon-rslogo {
+  width: 100px;
+  height: 70px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
 }
