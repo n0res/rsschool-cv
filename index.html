@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">    <!--подключили шрифт-->
+    <link href="https://fonts.google.com/share?selection.family=Poppins:ital,wght@0,100;0,200;1,100;1,200" rel="stylesheet">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">    <!--подключили стили-->     
+</head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">   <!--навигация(ссылки на разделы)-->
+            <li class="nav-item"><a href="#mycontact"class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#about me" class="nav-link">About me</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#code example" class="nav-link">Code example</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+          </ul>
+        </nav>
+      </div>
+        <div class="me">    <!--шапка с именем и фото-->
+          <img class="photo1" src="./assets/img/pfoto1.jpg" alt="myphoto">
+          <div class="myinfo">
+            <h1 class="name">Andrei Ivanou</h1>
+            <h3 class="proffesion">Junior Front-end Developer</h3>
+          </div>
+        </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <section class="contact section" id="mycontact">    <!--контакты-->
+          <h2 class="title">Contacts:</h2>
+            <p class="contactsinfo">            
+                E-mail: 1andreykaivanov@gmail.com<br>
+                Tel: + 375445465393<br>
+                GitHub: <a href="https://github.com/n0res" class="gitlink">n0res</a><br>
+            </p>             
+        </section>
+        <section class="aboutme section" id="about me">   <!--инфа про меня-->
+          <h2 class="title">About me:</h2>
+            <p class="aboutmeinfo"></p>
+              I am 29 years old and I work as a customs-clearance manager.<br>
+              I want to change profession. I want to be front-end developer.<br>
+        </section>
+        <section class="skills section" id="skills">    <!--мои навыки-->
+          <h2 class="title">Skills:</h2>
+            <p class="skillsinfo"></p>
+                Git/Github<br>
+                JavaScript (basic)<br>
+                1C:Enterprise<br>
+        </section>
+        <section class="codeexmple section" id="code example">    <!--пример кода-->
+          <h2 class="title">Code example:</h2>
+            <p class="codeinfo"></p>
+            <code>
+              <pre>
+            function multiply (a, b){
+            return a*b
+            }
+              </pre>         
+            </code>
+        </section>
+        <section class="education section" id="education">    <!--образование-->
+          <h2 class="title">Education:</h2>
+            <p class="educationinfo"></p>
+              Sukhoi State Technical University of Gomel.<br>
+        </section>
+        <section class="english" id="english">    <!--англ.лвл-->
+          <h2 class="title">English:</h2>
+            <p class="englishinfo"></p>
+              <p>A1 - testing <a href="https://www.efset.org/ru/" class="gitlink" >here.</a></p>
+              <p>(I learn english every day. I use Duolingo and google translate).</p>
+        </section>
+      </div>      
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="myfooter">
+          <span class="main-text"><a href="https://github.com/n0res" class="gitlink">GitHub</a></span>
+            <p class="info2022">2022</p>
+        </div>
+          <a href="https://rs.school/js/">
+            <img src="assets/img/rs_school-logo.svg" alt="rsschool-logo" class="icon-rslogo">
+          </a>
+        </div>  
+    </footer>
+  </body>
+</html>
